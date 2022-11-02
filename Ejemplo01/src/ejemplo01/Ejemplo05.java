@@ -14,10 +14,10 @@ package ejemplo01;
 public class Ejemplo05 {
     public static void main(String[] args) {
         // Secuencia de escape \n y \t
-        String nombreEstudiante = "René Rolando";
-        String apellidoEstudiante = "Elizalde Solano";
-        int nacimiento = 1983;
-        
+        String nombreEstudiante = "Alex Israel";
+        String apellidoEstudiante = "Ramírez Jiménez";
+        int nacimiento = 2004;
+        /*
         System.out.println(nombreEstudiante+"\n"+apellidoEstudiante+ "\n"+ 
                 nacimiento);
         
@@ -25,7 +25,8 @@ public class Ejemplo05 {
                 nacimiento);
         
         System.out.println(nombreEstudiante+"\n"+"\n"+apellidoEstudiante+ "\n"+
-                "\n"+ nacimiento);
-        // System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
+                "\n"+ nacimiento); */
+        System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
+        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);  
     }
 }
